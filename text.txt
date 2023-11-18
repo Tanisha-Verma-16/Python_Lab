@@ -1,0 +1,14 @@
+1. Opening a File:
+
+To open a file, you can use the open() function, which takes two arguments: the file name (including the path) and the mode in which the file should be opened (e.g., 'r' for reading, 'w' for writing, 'a' for appending, 'b' for binary mode, etc.).
+It is essential to open the file using a with statement to ensure proper handling and automatic closing of the file when you're done.
+2. Reading from a File:
+
+You can read the contents of a file using methods like read(), readline(), or by iterating over the file object in a for loop.
+In the case of reading a file line-by-line, you typically use a for loop to iterate through the lines.
+3. Writing to a File:
+
+To write data to a file, you open the file in write ('w') or append ('a') mode and use methods like write() or writelines().
+4. Closing a File:
+
+Always close the file after reading or writing to release system resources and ensure data integrity.

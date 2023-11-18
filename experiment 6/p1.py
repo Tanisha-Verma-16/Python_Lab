@@ -1,0 +1,5 @@
+tup = ("michael","jim","pam","dwight")
+print("Original tuple : ",tup)
+tup = ("michael","jim","andy","dwight")
+print("Updated tuple : ",tup)
+print("Length of Tuple : ",len(tup))
